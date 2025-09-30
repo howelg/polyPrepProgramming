@@ -17,3 +17,8 @@ p{
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 	text-decoration: underline wavy blue;
 }
+h6{
+  color: green;
+  text-decoration: underline wavy red;
+  font: comic;
+}
