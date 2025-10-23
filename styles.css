@@ -1,24 +1,49 @@
-h1 {
-  color: #0FBBD9;
-  font-size: 128px;
+body {
+  font-family: "Roboto";
+  background-color: lightgrey;
 }
-h2 {
-  color: #007744;
-  font-size: 64px;
-  font: georgia;
+#footer {
+  background-color: #C81C2C;
+  position: absolute; left:0; top: 1800px;
+  height: 20px;
+  width: 1318px;
+  text-align: center;
+  font-size: 8px;
+  z-index: 5;
 }
-h3 {
-  color: #BB3365;
-  font-size: 48px;
-  font: calibri;
+#header {
+  position:absolute; left: 0; top: 100px;
+  background-color: lightblue;
+  text-align: center;
+  color: #0080CC;
+  width: 1308px;
+  margin-left: 0;
+  border: 5px solid blue;
+  height: 85px;
 }
-p{
-	font-size: 30px;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-	text-decoration: underline wavy blue;
+
+#Website {
+  position: absolute; left: 100px; top: 1150px;
+  width: 454px;
+  height: 500px;
+  background-image: linear-gradient(#ADD8E6, #7994A2);
+  border: 5px solid lightgreen;
+  text-align: center;
+  font-size: 16px;
 }
-h6{
-  color: green;
-  text-decoration: underline wavy red;
-  font: comic;
+#introduction {
+  background-image: linear-gradient(#ADD8E6, #7994A2 );
+  height: 300px;
+  width: 450px;
+  border: 5px solid lightgreen;
+  position: absolute; left: 150px; top: 350px;
+  text-align: center;
+}
+#Project1 {
+  background-image: linear-gradient(#ADD8E6, #7994A2 );
+  height: 300px;
+  width: 450px;
+  border: 5px solid lightgreen;
+  position: absolute; left: 650px; top: 350px;
+  text-align: center;
 }
